@@ -2,19 +2,46 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title>HTML</title>
+    <title>Introdução CSS</title>
     <style>
         h1 {
             font-size: 65px;
-            color: orange;
+            color: rgb(0, 102, 255);
+            font-family: sans-serif;
+            text-decoration: underline;
         }
 
         ul {
-            background-color: cyan;
+            background-color: rgb(0, 102, 255);
+            text-align:center;
+        }
+
+        p {
+          font-weight: 600;
+          font-size: 3em;
+          color: white;
+        }
+
+        body {
+          background-color: rgb(181, 236, 218);
+          font-size: 16px;
+          font-style:oblique;
         }
 
         .bg-color {
-            background-color: blanchedalmond;
+            background-color: rgb(185, 100, 219);
+        }
+
+        #lista-1 {
+          background-color: yellow
+        }
+
+        #lista-2 {
+          background-color: red
+        }
+
+        #lista-3 {
+          background-color:brown
         }
     </style>
   </head>
@@ -27,9 +54,9 @@
     <p class="bg-color">Qual é a sua cor favorita?</p>
 
     <ul>
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="lista-1">Amarelo</li>
+      <li id="lista-2">Vermelho</li>
+      <li id="lista-3">Marrom</li>
     </ul>
 
   </body>
