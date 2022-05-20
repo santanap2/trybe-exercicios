@@ -23,3 +23,17 @@ let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 for (let nome of names) {
     console.log(nome)
 }
+
+
+
+ultimoPrimeiro.push(index[0]); ultimoPrimeiro.push(',');ultimoPrimeiro.push(index<stringD4.length);
+
+
+let stringD4 = ['Counter-Strike', 'GTA V', 'Valorant']
+let index = stringD4[stringD4.length-1]
+const resultado = [index.concat(', ').concat(stringD4[0])]
+
+function concatName(stringD4) {
+  return resultado;
+}
+console.log (resultado);

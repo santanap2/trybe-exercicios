@@ -33,8 +33,8 @@ if (mediaAritmetica > 20) {
 //exercicio 5
 console.log('Exercicio 5: ')
 
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorValor = [0];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let maiorValor = numbers[0];
 for (let index=0; index < numbers.length; index += 1) {
     if (maiorValor < numbers[index]) {
         maiorValor = numbers[index]
@@ -59,6 +59,14 @@ console.log(numerosImpares.length);
 
 //exercicio 7
 console.log('Exercicio 7: ')
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let menorValor = numbers[0];
+for (let index=0; index < numbers.length; index += 1) {
+    if (menorValor > numbers[index]) {
+        menorValor = numbers[index]
+    }
+}
+console.log(menorValor);
 
 
 //exercicio 8
