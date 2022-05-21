@@ -18,14 +18,26 @@ console.log(inverse);
 let array = ['java', 'javascript', 'python', 'html', 'css'];
 let biggest = array[0];
 function biggestWord (array) {
-    for (let index = 0; index = array.length -1; index =+1) {
-        if (array[index] > biggest.length) {
+    for (let index = 0; index <= array.length -1; index +=1) {
+        if (array[index].length > biggest.length) {
             biggest = array[index];
         }
-        return biggest;
     }
+    return biggest;
 }
-console.log(biggest);
+console.log(biggestWord(array,biggest));
 
 //exercicio 4
+function primosOuNao (array) {
+    for (n=2; n <= array.length; n+=1 ) {
+        let ehPrimo = true;
 
+        for (let div = 2; div < n; div += 1) {
+            if (n % div === 0) {
+                ehPrimo = false;
+                break;
+            }
+        }
+        if (ehPrimo) console.log(n);
+    }
+}
