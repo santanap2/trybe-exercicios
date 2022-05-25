@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="p1" id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="p1" id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      //ex1
+      const title = document.querySelector('h2');
+      title.innerText = 'Vingadores: Guerra Infinita';
+      //ex2
+      const secondParagraph = document.querySelectorAll('p')[1];
+      secondParagraph.style.backgroundColor = 'red';
+      secondParagraph.style.color = 'white';
+      secondParagraph.style.padding = '15px';
+      //ex3
+      const subtitle = document.querySelector('h4');
+      subtitle.style.backgroundColor = 'green';
+      subtitle.style.padding = '8px';
+      //parte 2
+      //ex2
+      const paragraphs = console.log(document.querySelectorAll('p'));
+      //ex3
+      document.querySelector('#paragraph').style.fontSize = '30px'
+      //ex4
+      document.querySelector('#subtitle').style.color = 'orange';
+    </script>
+  </body>
+</html>
