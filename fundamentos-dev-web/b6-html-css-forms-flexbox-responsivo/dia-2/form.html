@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concurso de viagem Trybe!</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Formulário de inscrição</h1>
+
+  <div>
+    <label for="name"> Nome Completo:
+      <input id="name" type="text" name="Nome" placeholder="Digite seu nome" maxlength="40" minlength="10">
+    </label>
+  </div>
+
+  <div>
+    <label for="email">Email:
+      <input type="email" id="email" name="Email" placeholder="Digite seu email" maxlength="50" minlength="10">
+    </label>
+  </div>
+
+  <div>
+    <label for="destiny">Destino preferido:
+      <select name="Destino" id="destiny">
+        <option value="cidade">Cidade</option>
+        <option value="campo">Campo</option>
+        <option value="praia">Praia</option>
+        <option value="montanha">Montanha</option>
+      </select>
+    </label>
+  </div>
+
+  <div>
+    <label for="reason"><strong> Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+        TrybeTrip?</strong> <br>
+      <textarea name="Motivo" id="reason" maxlength="500"></textarea>
+    </label>
+  </div>
+
+  <div>
+    <label for="date">Qual a melhor data para realizar sua viagem?
+      <input type="date" id="date">
+    </label>
+  </div>
+
+  <div>
+    <label for="news">
+      <input type="checkbox" id="news">
+      Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+    </label>
+  </div>
+
+  <div>
+    <label for="agreement">
+      <input type="checkbox" id="agreement" required>
+      Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+    </label>
+  </div>
+
+  <div>
+    <label for="restart">
+      <button type="reset" id="restart" class="btn-submit">Reset</button>
+    </label>
+
+    <label for="submit">
+      <button type="submit" id="submit" class="btn-submit">Enviar Formulário</button>
+    </label>
+  </div>
+
+  <script src="jquery-3.6.0.js"></script>
+  <script src="bootstrap.js"></script>
+
+</body>
+
+</html>
